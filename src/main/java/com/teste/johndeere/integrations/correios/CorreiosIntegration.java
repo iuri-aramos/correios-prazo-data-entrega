@@ -72,7 +72,7 @@ public class CorreiosIntegration {
       return exchange.getBody();
 
     } catch (final RestClientResponseException e) {
-      log.error("[Correios Integration] - Error making request to PTO: {}", correiosCalcPrazoDataEndpoint, e);
+      log.error("[Correios Integration] - Error making request to Correios: {}", correiosCalcPrazoDataEndpoint, e);
       log.error("[Correios Integration] - Status Message: {}", e.getStatusText());
       log.error("[Correios Integration] - Response Body: {}", e.getResponseBodyAsString());
       throw new IntegrationException(e);
