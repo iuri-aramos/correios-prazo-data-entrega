@@ -77,7 +77,7 @@ public class CorreiosIntegration {
       log.error("[Correios Integration] - Response Body: {}", e.getResponseBodyAsString());
       throw new IntegrationException(e);
     } catch (final Exception e) {
-      log.error("[Correios Integration] Unknown error consuming PTO API", e);
+      log.error("[Correios Integration] Unknown error consuming Correios API", e);
       throw new IntegrationException(e);
     }
   }
