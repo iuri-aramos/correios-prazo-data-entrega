@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cResultado xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+  <Servicos>
+    <cServico>
+      <Codigo>int</Codigo>
+      <Valor>string</Valor>
+      <PrazoEntrega>string</PrazoEntrega>
+      <ValorMaoPropria>string</ValorMaoPropria>
+      <ValorAvisoRecebimento>string</ValorAvisoRecebimento>
+      <ValorValorDeclarado>string</ValorValorDeclarado>
+      <EntregaDomiciliar>string</EntregaDomiciliar>
+      <EntregaSabado>string</EntregaSabado>
+      <Erro>string</Erro>
+      <MsgErro>string</MsgErro>
+      <ValorSemAdicionais>string</ValorSemAdicionais>
+      <obsFim>string</obsFim>
+      <DataMaxEntrega>string</DataMaxEntrega>
+      <HoraMaxEntrega>string</HoraMaxEntrega>
+    </cServico>
+  </Servicos>
+</cResultado>
